@@ -1,14 +1,21 @@
+package main.java;
+
 public class Task2 {
-    public static void main(String[] args) {
-        String s = "Kate";
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 9; j++) {
-                System.out.print(s + " ");
+
+
+    public static String main() {
+
+            String s = "";
+            for (int i = 0; i < 5; i++) {
+                for (int j = 1; j < 11; j++) {
+                    s += "Kate";
+                    s += " ";
+                }
+                s += "\n";
             }
-            System.out.println(s + " ");
+            return s;
+
         }
 
-
-    }
 
 }
