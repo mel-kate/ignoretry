@@ -30,6 +30,7 @@ public class Test_Task1 {
     public Object[] getData() {
         return new Object[][] {
                 {10, 6, 9},
+                {12, 5, 9},
         };
     }
 
